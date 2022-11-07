@@ -5,11 +5,11 @@ public class chineseZodiac {
     public static void main(String[] args) {
     
         Scanner scanner = new Scanner(System.in);
-        int age, chineseZodiacNum;
+        int birthYear, chineseZodiacNum;
         System.out.print("Enter your birth year : ");
-        age = scanner.nextInt();
+        birthYear = scanner.nextInt();
 
-        chineseZodiacNum = age%12;
+        chineseZodiacNum = birthYear%12;
 
         switch (chineseZodiacNum){
             case 0:
